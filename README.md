@@ -1,7 +1,4 @@
 # Vibe-Coding Workshop: Build a Neural Network 🧠
-
-A hands-on workshop where you build a fully functioning neural network using **only Python and NumPy** — no frameworks. This repository contains the workshop notes, code snippets, and guidance for the Spring '26 Neural Network Workshop.
-
 ---
 
 ## Table of Contents
