@@ -1,4 +1,4 @@
-# Vibe-Coding Workshop: Build a Neural Network 🧠
+# Neural Network Workshop
 ---
 
 ## Table of Contents
