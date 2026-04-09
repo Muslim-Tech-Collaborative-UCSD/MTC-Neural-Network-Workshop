@@ -38,8 +38,6 @@ pip install matplotlib
 
 ## Part 1 — What is a Neural Network?
 
-~15 minutes · Conceptual overview · No code yet
-
 ### The Neuron Analogy
 
 A neuron takes inputs, multiplies by weights, adds a bias, and passes through an activation function:
@@ -74,8 +72,6 @@ The big picture loop: Forward pass → Compute loss → Backpropagation → Upda
 ---
 
 ## Part 2 — Pick Your Dataset
-
-~15 minutes · Choose a dataset that keeps training fast (under ~5 min on a laptop)
 
 Constraints:
 
@@ -285,8 +281,6 @@ plt.show()
 
 ## Part 5 — Experiment & Explore
 
-~15 minutes · Try different configurations
-
 - Change the architecture: e.g., `[n_features, 16, 8, 1]`
 - Change the number of neurons: e.g., `[n_features, 64, 1]`
 - Adjust the learning rate: try `0.01`, `1.0`, `10.0`
@@ -303,32 +297,3 @@ Discussion questions are listed in the original notes.
 Create a `README.md` for your project. Example structure is in the original notes (title, dataset, architecture, results, what I learned).
 
 ---
-
-## Full Code
-
-The full runnable example is included in the original file. Use it as a single script or in a notebook. (See the `examples/` folder if present.)
-
----
-
-## Troubleshooting
-
-| Problem | Likely Cause | What to Ask Claude |
-| --- | --- | --- |
-| `NaN` in loss | Learning rate too high, or data not normalized | "My loss is NaN. Here's my code: [paste]. What's wrong?" |
-| Accuracy stuck at ~50% | Not enough epochs, bad architecture, or data issue | "My neural network accuracy is stuck at 50%. [paste code]. How can I improve it?" |
-| Shape mismatch error | Array dimensions don't align | "I'm getting a shape mismatch error: [paste error]. Here's my code: [paste]" |
-| `git push` rejected | Need to pull first, or auth issue | "Git says my push was rejected. Here's the error: [paste]. How do I fix this?" |
-| Can't load custom CSV | File path or format issue | "I'm trying to load a CSV for my neural network but getting [error]. The file is at [path]." |
-
----
-
-## Git Commands Cheat Sheet
-
-| Command | What It Does |
-| --- | --- |
-| `git clone <url>` | Download a repo to your computer |
-| `git status` | See what files have changed |
-| `git add .` | Stage all changes for commit |
-| `git commit -m "msg"` | Save a snapshot with a description |
-| `git push origin main` | Upload your commits to GitHub |
-| `git log --oneline` | See your commit history |
