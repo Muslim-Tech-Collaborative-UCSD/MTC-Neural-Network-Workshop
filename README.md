@@ -34,39 +34,6 @@ Install matplotlib (optional):
 ```bash
 pip install matplotlib
 ```
-
-### GitHub Setup
-
-Why GitHub? GitHub is how developers save, share, and collaborate on code. It tracks every change so you can always go back.
-
-1. Create a free account at https://github.com (if you don't have one).
-2. Install Git (or confirm it's installed): `git --version`.
-3. Create a new repository on GitHub (e.g., `neural-network-from-scratch`) and check "Add a README file".
-4. Clone it:
-
-```bash
-git clone https://github.com/YOUR-USERNAME/neural-network-from-scratch.git
-cd neural-network-from-scratch
-```
-
-Create your main Python file:
-
-```bash
-touch neural_net.py
-```
-
-### Claude Setup (optional)
-
-- Open https://claude.ai and use it as an AI pair programmer for explanations, debugging, and conceptual help.
-
-### First Commit
-
-```bash
-git add .
-git commit -m "Initial commit - project setup"
-git push origin main
-```
-
 ---
 
 ## Part 1 — What is a Neural Network?
